@@ -16,3 +16,4 @@ class CatAdmin(admin.ModelAdmin):
 
 admin.site.register(Product,ProductAdmin)
 admin.site.register(Categories,CatAdmin)
+admin.site.register(Tags)
